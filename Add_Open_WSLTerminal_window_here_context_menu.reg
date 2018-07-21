@@ -1,0 +1,38 @@
+Windows Registry Editor Version 5.00
+
+; Created by:Keisuke Kuzukawa
+; Created on: July 21th 2018
+; Tutorial: none
+
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Bash]
+@="Open WSL Terminal window here"
+"Icon"="C:\\Program Files\\wsl-terminal-0.8.11\\wsl-terminal\\open-wsl.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Bash\command]
+@="\"C:\\Program Files\\wsl-terminal-0.8.11\\wsl-terminal\\open-wsl.exe\" --dir \"%V\""
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\Bash]
+@="Open WSL Terminal window here"
+"Icon"="C:\\Program Files\\wsl-terminal-0.8.11\\wsl-terminal\\open-wsl.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Bash\command]
+@="\"C:\\Program Files\\wsl-terminal-0.8.11\\wsl-terminal\\open-wsl.exe\" --dir \"%V\""
+
+
+[HKEY_CLASSES_ROOT\Drive\shell\Bash]
+@="Open WSL Terminal window here"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\Drive\shell\Bash\command]
+@="\"C:\\Program Files\\wsl-terminal-0.8.11\\wsl-terminal\\open-wsl.exe\" --dir \"%V\""
+
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\Bash]
+@="Open WSL Terminal window here"
+"Extended"=-
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\Bash\command]
+@="\"C:\\Program Files\\wsl-terminal-0.8.11\\wsl-terminal\\open-wsl.exe\" --dir \"%V\""

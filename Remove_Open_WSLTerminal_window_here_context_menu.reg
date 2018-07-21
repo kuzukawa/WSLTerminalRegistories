@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+; Created by:Keisuke Kuzukawa
+; Created on: July 21th 2018
+; Tutorial: none
+
+
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\Bash]
+
+[-HKEY_CLASSES_ROOT\Directory\shell\Bash]
+
+[-HKEY_CLASSES_ROOT\Drive\shell\Bash]
+
+[-HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\Bash]
